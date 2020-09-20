@@ -1,0 +1,104 @@
+/*   спецификация   */
+body{
+   font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+   display: block;
+   padding: 0;
+   margin: 0;
+   
+}
+h1, h2, h4, h5 {
+   font-weight: 700;
+   color: #000000;
+   font-size: 32px;
+}
+h3 {
+   font-weight: 400;
+   font-size: 22px;
+}
+h2{
+   text-align: center;
+}
+.title{
+   padding-top: 105px;
+   padding-bottom: 80px;
+   text-align: center;
+}
+.title__main{
+font-size:32px ;
+}
+.title__text{
+   font-size: 20px;
+   color:#9c9fa2;
+   width: 732px;
+   margin: 0 auto;
+}
+/*   первый экран   */
+.header{
+   padding-top: 61px;
+   background-color: #fcdb00;
+   padding-bottom: 105px;
+}
+.menu{
+   margin-top: 10px;
+
+}
+.menu__item{
+margin: 0 57px;
+
+}
+.menu__item a{
+   color: #000000;
+   font-weight: 700;
+   font-size: 22px;
+}
+/*   второя экран   */
+.offer{
+   margin-top: 117px;
+}
+   
+.offer__title{
+font-size: 32px;
+font-weight: 700;
+line-height: 18px;
+}
+
+
+.offer__intro{
+   max-width: 390px;
+   font-size: 20px;
+   font-weight: 400 ;
+   color: #313841;
+   line-height: 24px;
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+
+.offer__text{
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #555555;
+}
+/*   иконки    */
+.icons__item{
+   margin-right: 30px;
+}
+.icons__item a{
+   /* Base style */
+font-size: 42px;
+color: #010101;
+transition: all 0.3s ease;
+}
+.icons__item a:hover {
+   text-decoration: none;
+   color:#ff4800 ;
+}
+.ipad{
+   display: block;
+   margin: 67px auto;
+
+}
+/*   Второй экран    */
